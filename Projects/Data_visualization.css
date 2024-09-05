@@ -1,0 +1,127 @@
+/* Style for the Data Visualization Projects page */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to left, #ffffff, #dddddd);
+    margin: 0;
+    padding: 0;
+    animation: backgroundFade 5s ease-in-out infinite;
+}
+
+header {
+    background-color: #db9d0e;
+    color: white;
+    padding: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 100px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-size: 17px;
+}
+
+nav ul li a:hover {
+    color: #add8e6;
+}
+
+.projects-details {
+    padding: 10px;
+    max-width: 1000px;
+    margin: 30px auto; /* Centers the section horizontally */
+    border: 2px solid #db9d0e; /* Adds a border around the section */
+    border-radius: 10px; /* Rounds the corners of the border */
+    background-color: #f9f9f9; /* Adds a light background inside the section */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+}
+
+.projects-details h1 {
+    text-align: center; /* Centers the heading */
+    font-size: 32px;
+    color: #ff0000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #db9d0e; /* Adds a line below the heading */
+    margin-top: 0;
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
+.project h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    border-radius: 5px; /* Rounds the corners of the images */
+}
+
+.project p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Container for download links and notes */
+.download-section {
+    text-align: center; /* Centers content horizontally */
+    margin-top: 20px;
+}
+
+.project a {
+    display: inline-block;
+    margin: 10px; /* Adds space between buttons */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+/* Stylish buttons for download links */
+.project a.pbix-btn {
+    background-color: #007bff; /* Blue background */
+}
+
+.project a.pbix-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.project a.pdf-btn {
+    background-color: #28a745; /* Green background */
+}
+
+.project a.pdf-btn:hover {
+    background-color: #1e7e34; /* Darker green on hover */
+}
+
+/* Notes styling */
+.download-section .note {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #666;
+}
+.border{
+    border-bottom: 2px solid #db9d0e;
+}

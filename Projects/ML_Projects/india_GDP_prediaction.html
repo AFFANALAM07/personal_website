@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India's GDP Prediction Project</title>
+    <link rel="stylesheet" href="gdp_prediction.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../projects.html">Projects</a></li>
+                <li><a href="../../contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <h2>Project Overview</h2>
+        <p>This project predicts India's Gross Domestic Product (GDP) using machine learning models. The dataset contains historical GDP data, and a linear regression model is used to forecast future GDP based on past trends.</p>
+    </section>
+
+    <section class="steps">
+        <h2>Process Breakdown</h2>
+        <ol>
+            <li>The dataset is loaded from a CSV file containing GDP data from previous years.</li>
+            <li>Missing values are imputed using historical data. The dataset is preprocessed for time-series analysis.</li>
+            <li>The data is split into training and testing sets to ensure model accuracy.</li>
+            <li>A linear regression model is trained to predict India's GDP based on the year.</li>
+            <li>The trained model is saved and used in a Flask web application.</li>
+            <li>Users input a year, and the model predicts the expected GDP for that year.</li>
+        </ol>
+    </section>
+
+    <section class="snapshots">
+        <h2>Webpage Interface Snapshots</h2>
+        <div class="snapshot-item">
+            <img src="gdp1.png" alt="Snapshot 1">
+            <p><strong>Snapshot 1:</strong> The homepage where users can input a year to predict India's GDP.</p>
+        </div>
+        <div class="snapshot-item">
+            <img src="gdp2.png" alt="Snapshot 2">
+            <p><strong>Snapshot 2:</strong> The result page showing the predicted GDP for the entered year.</p>
+        </div>
+    </section>
+
+    <section class="repository">
+        <h2>GitHub Repository</h2>
+        <p>You can access the repository for this project <a href="https://github.com/AFFANALAM07/India-s-GDP-Prediction" target="_blank">here</a>.</p>
+        <h3>How to Clone and Run the Project</h3>
+        <ol>
+            <li>Open your terminal or command prompt.</li>
+            <li>Clone the repository using the following command:
+                <pre><code>git clone https://github.com/AFFANALAM07/India-s-GDP-Prediction</code></pre>
+            </li>
+            <li>Navigate to the project folder:
+                <pre><code>cd india-gdp-prediction</code></pre>
+            </li>
+            <li>Install the necessary dependencies:
+                <pre><code>pip install -r requirements.txt</code></pre>
+            </li>
+            <li>Run the project:
+                <pre><code>python app.py</code></pre>
+            </li>
+        </ol>
+    </section>
+
+    <footer>
+        <p>© 2024 India's GDP Prediction Project</p>
+    </footer>
+</body>
+</html>

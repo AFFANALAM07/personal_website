@@ -1,0 +1,97 @@
+/* Existing Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to left, #ffffff, #dddddd);
+    margin: 0;
+    padding: 0;
+    animation: backgroundFade 5s ease-in-out infinite;
+}
+
+header {
+    background-color: #db9d0e;
+    color: white;
+    padding: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 100px; /* Reduced gap for a more compact look */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-size: 16px; /* Slightly larger font size */
+}
+
+nav ul li a:hover {
+    color: #add8e6;
+}
+
+.intro, .steps, .repository, .snapshots {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px 15px;
+    background-color: white;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #ff0000;
+}
+
+p, ol {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.snapshots .snapshot-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* One column per snapshot */
+    gap: 20px;
+}
+
+.snapshots .snapshot-item img {
+    width: 100%; /* Make images fill the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.snapshots .snapshot-item p {
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.repository a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+}
+

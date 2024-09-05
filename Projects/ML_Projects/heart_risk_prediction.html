@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Attack Risk Prediction Project</title>
+    <link rel="stylesheet" href="heart_attack_prediction.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../projects.html">Projects</a></li>
+                <li><a href="../../contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <h2>Project Overview</h2>
+        <p>This project predicts the risk of a heart attack using machine learning models based on a dataset containing various medical and demographic factors. The model is trained using a classification algorithm (XGBoost) and deployed via a Flask web application.</p>
+    </section>
+
+    <section class="steps">
+        <h2>How It Functions</h2>
+        <ol>
+            <li>The dataset is loaded from a CSV file and preprocessed to handle both numerical and categorical features.</li>
+            <li>Numerical features are imputed for missing values using the median, followed by standardization. Categorical features are imputed using the most frequent value and encoded using OneHotEncoder.</li>
+            <li>The data is split into training and testing sets, and an XGBoost classifier is trained on the training data.</li>
+            <li>A pipeline is created to ensure seamless preprocessing and classification. The trained model is saved as a .pkl file using the pickle module.</li>
+            <li>The Flask app includes an HTML form for inputting patient data. Once submitted, the app processes the input, loads the saved model, and makes a prediction based on the input features.</li>
+            <li>The result is returned, indicating whether there is a risk of heart attack based on the input data.</li>
+        </ol>
+    </section>
+
+    <section class="snapshots">
+        <h2>Webpage Interface Snapshots</h2>
+        <div class="snapshot-grid">
+            <div class="snapshot-item">
+                <img src="Screenshot_5-9-2024_14263_127.0.0.1.jpeg" alt="Snapshot 1">
+                <p><strong>Snapshot 1:</strong> The homepage of the Heart Attack Risk Prediction tool, where users can input their medical data to predict the risk of a heart attack.</p>
+            </div>
+    
+            <div class="snapshot-item">
+                <img src="Screenshot 2024-09-05 144240.png" alt="Snapshot 3">
+                <p><strong>Snapshot 2:</strong> The prediction result page, which shows whether the model predicts a risk of heart attack based on the input data.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="repository">
+        <h2>GitHub Repository</h2>
+        <p>You can access the repository for this project <a href="https://github.com/AFFANALAM07/Heart-Attack-Risk-Prediction" target="_blank">here</a>.</p>
+        <p>Where You Can You find :- </p>
+        <p>1) app.py: The Flask application code.<br>
+           2) templates/index.html: The input form.<br>
+            3) templates/result.html: The result page.<br>
+           4) data/Heart_data.csv: The dataset used for training the model.</p>
+        <h3>How to Clone and Run the Project</h3>
+        <ol>
+            <li>Open your terminal or command prompt.</li>
+            <li>Clone the repository using the following command:
+                <pre><code>git clone https://github.com/AFFANALAM07/Heart-Attack-Risk-Prediction</code></pre>
+            </li>
+            <li>Navigate to the project folder:
+                <pre><code>cd heart-attack-risk-prediction</code></pre>
+            </li>
+            <li>Install the necessary dependencies (make sure Python and pip are installed):
+                <pre><code>pip install -r requirements.txt</code></pre>
+            </li>
+            <li>Run the project:
+                <pre><code>python app.py</code></pre>
+            </li>
+        </ol>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Affan Alam. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

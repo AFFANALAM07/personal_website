@@ -1,0 +1,125 @@
+/* CSS: projects.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to left, #ffffff, #dddddd);
+    margin: 0;
+    padding: 0;
+    animation: backgroundFade 5s ease-in-out infinite;
+}
+
+header {
+    background-color: #db9d0e;
+    color: white;
+    padding: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 100px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-size: 17px;
+}
+
+nav ul li a:hover {
+    color: #add8e6;
+}
+
+.projects-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+    height: 580px;
+    gap: 30px;
+}
+
+.project-box {
+    position: relative;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+}
+
+.project-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project-box h2 {
+    margin-top: 0;
+    font-size: 1.8em;
+    color: white;
+}
+
+.project-box p {
+    line-height: 1.6;
+    font-size: 1.1em;
+    color: white;
+}
+
+.project-links {
+    margin-top: 320px;
+   
+
+}
+
+.project-link {
+    display: block;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px 0;
+    transition: color 0.3s, text-decoration 0.3s;
+    background-color: black;
+}
+
+.project-link:hover {
+    color: #f5f7f6;
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* Add this to your projects.css file */
+
+.open-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 320px;
+    
+}
+
+.open-button:hover {
+    transform: scale(1.05);
+    text-decoration-line:underline;
+}
+

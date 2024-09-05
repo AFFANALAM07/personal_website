@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #ffffff, #f0f0f0);
+    margin: 0;
+    padding: 0;
+    animation: backgroundFade 6s ease-in-out infinite;
+}
+
+header {
+    background-color: #db9d0e;
+    color: white;
+    padding: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 100px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #add8e6;
+}
+
+.intro, .steps, .repository, .snapshots {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #0a74da;
+}
+
+p, ol {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.snapshots .snapshot-item {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.snapshots .snapshot-item img {
+    width: 80%; /* Make images larger */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.repository a {
+    color: #0a74da;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0a74da;
+    color: white;
+    margin-top: 40px;
+}
