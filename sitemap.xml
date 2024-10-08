@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://affanalam07.github.io/personal_website/</loc>
+  <lastmod>2024-09-09T06:48:13+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://affanalam07.github.io/personal_website/index.html</loc>
+  <lastmod>2024-09-09T06:48:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://affanalam07.github.io/personal_website/projects.html</loc>
+  <lastmod>2024-09-09T06:48:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://affanalam07.github.io/personal_website/contact.html</loc>
+  <lastmod>2024-09-09T06:48:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://affanalam07.github.io/personal_website/IMAGES/Affan__Resume_.pdf</loc>
+  <lastmod>2024-09-09T06:48:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://affanalam07.github.io/personal_website/Projects/machine_learning.html</loc>
+  <lastmod>2024-09-09T06:48:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://affanalam07.github.io/personal_website/Projects/Data_visualization.html</loc>
+  <lastmod>2024-09-09T06:48:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://affanalam07.github.io/personal_website/Projects/Data_analysis.html</loc>
+  <lastmod>2024-09-09T06:48:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://affanalam07.github.io/personal_website/Projects/ML_Projects/heart_risk_prediction.html</loc>
+  <lastmod>2024-09-09T06:48:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://affanalam07.github.io/personal_website/Projects/ML_Projects/india_GDP_prediaction.html</loc>
+  <lastmod>2024-09-09T06:48:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://affanalam07.github.io/personal_website/Projects/NREGA%20ANALYSIS.pdf</loc>
+  <lastmod>2024-09-09T06:48:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://affanalam07.github.io/personal_website/Projects/Netflix_dasboard.pdf</loc>
+  <lastmod>2024-09-09T06:48:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://affanalam07.github.io/personal_website/Projects/IPL_Dasboard.pdf</loc>
+  <lastmod>2024-09-09T06:48:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
